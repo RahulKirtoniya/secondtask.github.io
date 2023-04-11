@@ -1,0 +1,61 @@
+/* Header Section */
+.header {
+    padding: 0.1px;
+    text-align: center;
+    background: red;
+    color: white;
+    font-size: 15px;
+}
+
+/* Footer Section */
+.footer {
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3cb371;
+    color: white;
+    text-align: center;
+}
+
+/* This is The Image Section */
+.container {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+/* For Boxes */
+.box1 {
+    background-color: #1a2674;
+    height: 250px;
+    width: 490px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    float: left;
+    border: 5px solid #f7f2f2;
+    color: white;
+    padding: left;
+}
+
+.bd {
+    background-color: #d707db;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+}
+
+.bd:hover {
+
+    background-color: #4CAF50;
+    color: white;
+}

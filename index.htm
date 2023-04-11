@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>Task @Vyrazu Labs</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Vyrazu Labs</h1>
+        <p><i>Solutions To Conquer</i></p>
+    </div>
+
+    <div class="footer">
+        ©All Right Reserved.
+    </div>
+    <div class="slideshow-container">
+
+        <!-- For Image Sliding -->
+        <div class="container">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <!-- For Slides -->
+                    <div class="swiper-slide"><img src="img1.jpg"></div>
+                    <div class="swiper-slide"><img src="img2.jpg"></div>
+                    <div class="swiper-slide"><img src="img3.jpg"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <script>
+            const swiper = new Swiper('.swiper', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
+        <div class="box1">
+          <div><li>Students Name</li> 
+            <ul>Description</ul>
+            Start with your first and last name, school year, and your location.
+            <br>
+            <br>
+            <br>
+            <button class="bd">Get Details</button></div>
+        </div>
+        <div class="box1">
+            <div>
+                <li>Teachers Name</li>
+                <ul>Description</ul>
+                Tell them your experience with the thing you're teaching. ...
+                <br>
+                <br>
+                <br>
+                <button class="bd">Get Details</button>
+               
+            </div>
+        </div>
+        <div class="box1">
+            <div>
+                <li>Subject Name</li>
+                <ul>Description</ul>
+            To begin your paper, limit your topic, start with a story, write a few..
+                <br>
+                <br>
+                <br>
+                <button class="bd">Get Details </button>
+            </div>
+        </div>
+        
+</body>
+
+</html>
